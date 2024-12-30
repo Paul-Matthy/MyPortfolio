@@ -16,7 +16,7 @@ const nav = ({ theme, setTheme }) => {
           className="logo"
         >
           <img
-            src="./public/images/favicon.ico"
+            src="./images/favicon.ico"
             width={40}
             height={40}
             alt="Paul Matthias"

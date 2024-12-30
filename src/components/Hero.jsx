@@ -20,7 +20,7 @@ const Hero = () => {
                         <div className="flex items-center gap-3">
                             <figure className="img-box w-9 h-9 rounded-lg">
                                 <img
-                                    src="./public/images/IMG_5650.jpg"
+                                    src="./images/IMG_5650.jpg"
                                     width={40}
                                     height={40}
                                     alt="Paul Matthias protrait"
