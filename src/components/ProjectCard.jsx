@@ -14,7 +14,7 @@ const ProjectCard = ({
     classes
 }) => {
     return (
-        <div className={"relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors" + classes}>
+        <div className={"relative p-4 rounded-2xl bg-zinc-800 dark:bg-slate-200 hover:bg-zinc-700/50 dark:hover:bg-slate-300 active:bg-zinc-700/60 dark:active:bg-slate-300 ring-1 ring-inset ring-zinc-50/5 dark:ring-slate-100 transition-colors" + classes}>
 
             <figure className="img-box aspect-square rounded-lg mb-4">
                 <img
@@ -36,7 +36,7 @@ const ProjectCard = ({
                         {tags.map((label, key) => (
                             <span
                                 key={key}
-                                className="h-8 text-sm text-zinx-400 bg-zinc-50/5 grid items-center px-3 rounded-lg"
+                                className="h-8 text-sm text-zinx-400 bg-zinc-50/5 dark:bg-slate-400 grid items-center px-3 rounded-lg"
                             >
                                 {label}
                             </span>

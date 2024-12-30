@@ -10,7 +10,7 @@ const aboutItems = [
 
     {
         label: 'Years of experience',
-        number: 4
+        number: 3
     }
 ];
 
@@ -23,7 +23,7 @@ const About = () => {
         >
             <div className="container">
 
-                <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
+                <div className="bg-zinc-800/50 dark:bg-slate-200 p-7 rounded-2xl md:p-12 reveal-up">
                     <p className="text-zinz-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
                         Welcome! I&apos;m Paul Matthias, a qualified web developer with a talent for creating aesthetically beautiful and incredibly useful websites. fusing technological know-how with creativity. I turn your idea into a digital masterpiece that is exceptional in both beauty and functionality.
 
@@ -38,7 +38,7 @@ const About = () => {
                                         <span className="text-emerald-300 font-semibold md:text-3xl">+</span>
                                     </div>
 
-                                    <p className="text-sm text-zinc-400">{label}</p>
+                                    <p className="text-sm text-zinc-400 dark:text-black">{label}</p>
                                 </div>
                             ))
                         }

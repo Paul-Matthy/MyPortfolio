@@ -7,7 +7,7 @@ import { ReactLenis } from 'lenis/react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
-import backgroundImage from '../public/images/textiles-pattern-2a.jpg';
+// import backgroundImage from '../public/images/textiles-pattern-2a.jpg';
 // import backgroundImage3 from '../public/images/abstract-dark-clear-grids-ac.jpg';
 
 
@@ -28,6 +28,7 @@ import Skill from './components/Skill';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { useState } from 'react';
 import { element } from 'prop-types';
 
 const App = () => {
@@ -51,9 +52,11 @@ const App = () => {
     });
   });
 
+  const [theme, setTheme] = useState(false)
+
   return (
-    <ReactLenis root>
-      <Nav />
+    <div className={theme ? 'dark dark:bg-white' : 'bg-zinc-900 text-zinc-50'}>
+      <Nav theme={theme} setTheme={setTheme} />
       <main>
         <Hero />
         <About />
@@ -62,7 +65,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
-    </ReactLenis>
+    </div>
   )
 }
 

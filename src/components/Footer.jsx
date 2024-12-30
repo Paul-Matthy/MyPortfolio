@@ -76,7 +76,7 @@ const Footer = () => {
                   <li key={key}>
                     <a
                       href={href}
-                      className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up"
+                      className="block text-sm text-zinc-400 dark:text-slate-400 py-1 transition-colors hover:text-zinc-200 dark:hover:text-slate-300 reveal-up"
                     >
                       {label}
                     </a>
@@ -94,7 +94,7 @@ const Footer = () => {
                     <a
                       href={href}
                       target="_blank"
-                      className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up"
+                      className="block text-sm text-zinc-400  dark:text-slate-400 py-1 transition-colors hover:text-zinc-200  dark:hover:text-slate-300 reveal-up"
                     >
                       {label}
                     </a>
@@ -121,7 +121,7 @@ const Footer = () => {
           </a>
 
           <p className="text-zinc-500 text-sm reveal-up">
-            &copy; 2024 <span className="text-zinc-200">Paul Matthias</span>
+            &copy; 2024 <span className="text-zinc-200 dark:text-slate-400">Paul Matthias</span>
           </p>
         </div>
 
