@@ -43,7 +43,7 @@ const Hero = () => {
 
                         <div className="flex items-center gap-2">
                             <ButtonPrimary
-                                herf="https://drive.google.com/file/d/1QtU_UAtHpuWtpOR2xMrxV6KJGl8oJuwc/view"
+                                herf="https://drive.google.com/file/d/1kvZZkyOPqVGNb1ehzJtdPUsrHxpiZh3y/view"
                                 label="Download CV"
                                 icon="download"
                             />
