@@ -10,40 +10,40 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: '/images/ww1.png',
+    imgSrc: '/images/pranza.png',
     title: 'Full stack Resturant Website',
-    tags: ['Web-design', 'Development'],
+    tags: ['Web-design', 'API'],
     projectLink: 'https://pranzaresturant.onrender.com'
   },
   {
-    imgSrc: '/images/work-2.png',
+    imgSrc: '/images/rental.png',
     title: 'Real Estate Website',
     tags: ['Web-design', 'Development'],
-    projectLink: 'https://pixstock-official.vercel.app/'
+    projectLink: 'https://rentalhomes.onrender.com'
   },
   {
-    imgSrc: '/images/project-3.jpg',
-    title: 'Recipe app',
-    tags: ['Development', 'API'],
-    projectLink: ''
+    imgSrc: '/images/nat.png',
+    title: 'Nature Wesite',
+    tags: ['Web-design', 'Freelance'],
+    projectLink: 'https://github.com/Paul-Matthy/Nat-geo'
   },
   {
-    imgSrc: '/images/project-4.jpg',
-    title: 'Real state website',
+    imgSrc: '/images/explore.png',
+    title: 'Exploring website',
+    tags: ['Web-design', 'Freelance', 'Development'],
+    projectLink: 'https://github.com/Paul-Matthy/World-Exploring'
+  },
+  {
+    imgSrc: '/images/school.png',
+    title: 'School website',
+    tags: ['Web-design', 'Development', 'Lead City Uni'],
+    projectLink: 'https://github.com/Paul-Matthy/SchoolWebsite'
+  },
+  {
+    imgSrc: '/images/dinner.png',
+    title: 'Gericht Dinner',
     tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee-org/wealthome'
-  },
-  {
-    imgSrc: '/images/project-5.jpg',
-    title: 'eCommerce website',
-    tags: ['eCommerce', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
-  },
-  {
-    imgSrc: '/images/project-6.jpg',
-    title: 'vCard Personal portfolio',
-    tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+    projectLink: 'https://gerichtdinner.onrender.com'
   },
 ];
 

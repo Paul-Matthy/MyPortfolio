@@ -20,7 +20,7 @@ const Hero = () => {
                         <div className="flex items-center gap-3">
                             <figure className="img-box w-9 h-9 rounded-lg">
                                 <img
-                                    src="./images/IMG_5650.jpg"
+                                    src="./images/ww2.jpg"
                                     width={40}
                                     height={40}
                                     alt="Paul Matthias protrait"
@@ -28,7 +28,7 @@ const Hero = () => {
                                 />
                             </figure>
 
-                            <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
+                            <div className="flex items-center gap-1.5 text-zinc-400 dark:text-black text-sm tracking-wide">
                                 <span className="relative w-2 h-2 rounded-full bg-emerald-400">
                                     <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
                                 </span>
@@ -43,6 +43,7 @@ const Hero = () => {
 
                         <div className="flex items-center gap-2">
                             <ButtonPrimary
+                                herf="https://drive.google.com/file/d/127iEzKQ0vHDSjsKr-V2Y_smjGgVUpq5D/view"
                                 label="Download CV"
                                 icon="download"
                             />
