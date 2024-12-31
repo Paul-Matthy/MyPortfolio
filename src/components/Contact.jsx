@@ -30,6 +30,11 @@ const socialLinks = [
         </svg>,
         alt: 'Instagram'
     },
+    {
+        href: 'mailto:paulmatthy900@gmail.com',
+        icon: <i className='bx bxs-envelope'></i>,
+        alt: 'Email'
+    },
 ];
 
 
@@ -39,15 +44,15 @@ const Contact = () => {
             id="contact"
             className="section"
         >
-            <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
+            <div className="container">
 
-                <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
+                <div className="mb-12 lg:mb-0 lg:flex lg:flex-col items-center">
 
-                    <h2 className="headline-2 lg:max-w-[12ch] reveal-up">
+                    <h2 className="headline-2 reveal-up">
                         Contact me for collaboration
                     </h2>
 
-                    <p className="text-zinc-400 dark:text-black mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
+                    <p className="text-zinc-400 dark:text-black mt-3 mb-8  reveal-up">
                         Reach out today to discuss your project needs and start collaborating on something amazing!
                     </p>
 
@@ -66,7 +71,7 @@ const Contact = () => {
 
                 </div>
 
-                <form
+                {/* <form
                     action="https://getform.io/f/aqonpnva"
                     method="POST"
                     className="xl:pl-10 2xl:pl-20"
@@ -138,7 +143,7 @@ const Contact = () => {
                         Submit
                     </button>
 
-                </form>
+                </form> */}
 
             </div>
         </section>
