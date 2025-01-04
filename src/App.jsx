@@ -55,7 +55,7 @@ const App = () => {
   const [theme, setTheme] = useState(false)
 
   return (
-    <div className={theme ? 'dark dark:bg-white' : 'bg-zinc-900 text-zinc-50'}>
+    <div className={theme ? 'dark dark:bg-gray-100' : 'bg-zinc-900 text-zinc-50'}>
       <Nav theme={theme} setTheme={setTheme} />
       <main>
         <Hero />

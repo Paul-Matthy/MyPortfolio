@@ -107,7 +107,7 @@ const Footer = () => {
 
         </div>
 
-        <div className="flex items-center justify-between pt-10 mb-8">
+        <div className="flex items-center justify-between pt-10 pb-8">
           <a
             href="/"
             className="logo reveal-up"

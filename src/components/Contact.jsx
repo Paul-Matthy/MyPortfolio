@@ -32,7 +32,7 @@ const socialLinks = [
     },
     {
         href: 'mailto:paulmatthy900@gmail.com',
-        icon: <i className='bx bxs-envelope'></i>,
+        icon: <i className='bx bxs-envelope text-2xl'></i>,
         alt: 'Email'
     },
 ];
